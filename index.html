@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body style="background-image:url('img.jpg');">
+    <div class="container">
+        <div class="calcu">CALCULATOR</div>
+        
+        <div class="border">
+           
+            <div id="viewbox">
+                <div class="calctag">
+                    CASIO</div>
+                <input type="text" id="input" placeholder="0.">
+            </div>
+                <div class="buttons">
+                   
+                    <button onclick="ButtonClick(7)" class="btn" id="btn1">7</button>
+                    <button onclick="ButtonClick(8)" class="btn" id="btn1">8</button>
+                    <button onclick="ButtonClick(9)" class="btn" id="btn1">9</button>
+                    <button onclick="ButtonClick('/')" class="btn" id="btn2">/</button>
+                    <br>
+                   
+                    <button onclick="ButtonClick(4)" class="btn" id="btn1">4</button>
+                    <button onclick="ButtonClick(5)" class="btn" id="btn1">5</button>
+                    <button onclick="ButtonClick(6)" class="btn" id="btn1">6</button>
+                    <button onclick="ButtonClick('*')" class="btn" id="btn2">x</button>
+                    <br>
+    
+                    <button onclick="ButtonClick(1)" class="btn" id="btn1">1</button>
+                    <button onclick="ButtonClick(2)" class="btn" id="btn1">2</button>
+                    <button onclick="ButtonClick(3)" class="btn" id="btn1">3</button>
+                    <button onclick="ButtonClick('-')" class="btn" id="btn2">-</button>
+                    <br>
+
+                    <button onclick="ClearScreen()" class="btn" id="btn1">AC</button>
+                    <button onclick="ButtonClick(0)" class="btn" id="btn1">0</button>
+                    <button onclick="ButtonClick('.')" class="btn" id="btn1">.</button>
+                    <button onclick="ButtonClick('+')" class="btn" id="btn2">+</button>
+                    <div class="lastsec">
+                    <button onclick="result('=')" class="eqbtn" id="btn2">=</button>
+                    </div>
+                   
+                </div>
+        </div>
+    </div>
+</body>
+</html>
