@@ -15,3 +15,7 @@ function result()
     var result=eval(text)
     document.getElementById("input").value=result
 }
+function backspace(){
+    var value = document.getElementById("input").value;
+    document.getElementById("input").value = value.substr(0, value.length - 1);
+}
